@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import { render } from 'astro:content';
-import { getPosts, fmtDate, postUrl, readingTime, catLabel, catTone, catSymbol, withBase } from '../../lib/site';
+import { getPosts, fmtDate, postUrl, readingTime, catLabel, catTone, catSymbol, withBase, articleJsonLd } from '../../lib/site';
 
 export async function getStaticPaths() {
   const posts = await getPosts();
@@ -17,7 +17,7 @@ const { Content, headings } = await render(post);
 const toc = headings.filter((h) => h.depth === 2);
 const c = post.data.category;
 ---
-<Base title={post.data.title} description={post.data.description}>
+<Base title={post.data.title} description={post.data.description} type="article" jsonLd={articleJsonLd(post)}>
   <div class={`wrap art t-${catTone(c)}`}>
     <header class="art-head">
       <p class="crumbs"><a href={withBase('/')}>Home</a> <span aria-hidden="true">/</span> <a class="crumb-cat" href={withBase(`/category/${c}/`)}><b>{catSymbol(c)}</b>{catLabel(c)}</a></p>

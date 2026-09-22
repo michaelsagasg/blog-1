@@ -2,14 +2,14 @@
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import HeroArt from '../components/HeroArt.astro';
-import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime, withBase, bannerHref } from '../lib/site';
+import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime, withBase, bannerHref, orgJsonLd } from '../lib/site';
 const posts = await getPosts();
 const cats = countBy(posts, (p) => p.data.category);
 const [lead, ...rest] = posts;
 const side = rest.slice(0, 3);
 const b = site.banner;
 ---
-<Base title={site.name} description={site.tagline || undefined}>
+<Base title={site.name} description={site.tagline || undefined} jsonLd={orgJsonLd(Astro.site!)}>
   <section class="hero">
     <div class="wrap hero-in">
       <div class="hero-copy">

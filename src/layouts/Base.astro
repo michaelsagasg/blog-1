@@ -3,13 +3,14 @@ import Banner from '../components/Banner.astro';
 import Logo from '../components/Logo.astro';
 import { site, getPosts, countBy, catLabel, catShort, catTone, withBase, stripBase } from '../lib/site';
 
-interface Props { title: string; description?: string }
-const { title, description } = Astro.props;
+interface Props { title: string; description?: string; type?: 'website' | 'article'; jsonLd?: object }
+const { title, description, type = 'website', jsonLd } = Astro.props;
 
 const posts = await getPosts();
 const categories = countBy(posts, (p) => p.data.category).slice(0, 6);
 const pageTitle = title === site.name ? site.name : `${title} | ${site.name}`;
 const path = stripBase(Astro.url.pathname);
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
 ---
 <!doctype html>
 <html lang="en">
@@ -19,6 +20,12 @@ const path = stripBase(Astro.url.pathname);
     <meta name="color-scheme" content="light dark" />
     {description && <meta name="description" content={description} />}
     <title>{pageTitle}</title>
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={pageTitle} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalUrl} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

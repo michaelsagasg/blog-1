@@ -22,6 +22,25 @@ export const postUrl = (p: Post) => withBase(`/posts/${p.id}/`);
 const utm = `utm_source=${site.slug}&utm_medium=blog`;
 export const bannerHref = (url: string) => url + (url.includes('?') ? '&' : '?') + utm;
 
+// advertiser.json lives outside this repo (workspace root, gitignored here), so it isn't checked
+// out in CI and can't be read at build time -- these represent the site itself as publisher.
+export const orgJsonLd = (origin: string | URL) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: site.name,
+  url: new URL(withBase('/'), origin).href,
+});
+
+export const articleJsonLd = (post: Post) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.date.toISOString(),
+  author: { '@type': 'Organization', name: site.name },
+  publisher: { '@type': 'Organization', name: site.name },
+});
+
 export async function getPosts(): Promise<Post[]> {
   const all = await getCollection('posts');
   return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || a.id.localeCompare(b.id));
