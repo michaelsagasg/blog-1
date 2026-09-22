@@ -1,0 +1,20 @@
+{
+  "name": "PeptideCOA",
+  "tagline": "Plain-language guides to GLP-1 drugs, retatrutide, and reading a COA.",
+  "theme": "site",
+  "nav": [
+    {
+      "label": "All articles",
+      "short": "All",
+      "href": "/archive/"
+    }
+  ],
+  "banner": {
+    "enabled": true,
+    "headline": "Retatrutide pens with the COA on the listing. Order before 2pm for same-day dispatch.",
+    "button": "Shop Enzo Meds",
+    "url": "https://enzomeds.com?r=blog",
+    "label": "",
+    "short": "Retatrutide pens"
+  }
+}

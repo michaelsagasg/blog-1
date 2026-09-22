@@ -1,0 +1,12 @@
+node_modules
+dist
+.astro
+.env
+.venv
+
+# internal workspace tooling: not meant to be pushed to this site's (public) repo
+.claude
+.env.example
+BUILD_BRIEF.md
+agent
+docs

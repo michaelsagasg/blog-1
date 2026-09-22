@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import HeroArt from '../components/HeroArt.astro';
+import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime } from '../lib/site';
+const posts = await getPosts();
+const cats = countBy(posts, (p) => p.data.category);
+const [lead, ...rest] = posts;
+const side = rest.slice(0, 3);
+const b = site.banner;
+---
+<Base title={site.name} description={site.tagline || undefined}>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        {lead && <p class="dateline">Updated {fmtDate(lead.data.date)}</p>}
+        <h1>Guides to peptides and <em>retatrutide</em></h1>
+        <p class="hero-sub">Trial results, side effects, dosing math and buying guides, each with the numbers and where they came from.</p>
+        <div class="hero-cta">
+          {b.enabled && <a class="btn-shop" href={b.url} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>}
+          <a class="btn-ghost" href="#all">Browse the guides</a>
+        </div>
+      </div>
+      <HeroArt />
+    </div>
+  </section>
+
+  <section class="wrap elements" aria-labelledby="topics">
+    <h2 id="topics" class="sec-title">The topic table</h2>
+    <ul class="ptable">
+      {cats.map(([c, n]) => (
+        <li>
+          <a class={`el t-${catTone(c)}`} href={`/category/${c}/`}>
+            <span class="el-n">{n}</span>
+            <span class="el-sym">{catSymbol(c)}</span>
+            <span class="el-name">{catLabel(c)}</span>
+            <span class="el-blurb">{catBlurb(c)}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {lead && (
+    <section class="wrap front" aria-label="Latest">
+      <article class={`lead t-${catTone(lead.data.category)}`} data-sym={catSymbol(lead.data.category)}>
+        <p class="kicker"><b>{catSymbol(lead.data.category)}</b>Latest · {catLabel(lead.data.category)}</p>
+        <h2><a href={postUrl(lead)}>{lead.data.title}</a></h2>
+        <p class="desc">{lead.data.description}</p>
+        <p class="meta"><time datetime={lead.data.date.toISOString()}>{fmtDate(lead.data.date)}</time> · {readingTime(lead)} min read</p>
+        <a class="read-link" href={postUrl(lead)}>Read the guide <span aria-hidden="true">→</span></a>
+      </article>
+      <ul class="side list">{side.map((p) => <PostCard post={p} />)}</ul>
+    </section>
+  )}
+
+  {b.enabled && (
+    <section class="shopband" aria-label="Shop">
+      <div class="wrap shopband-in">
+        <div>
+          <h2>{b.headline}</h2>
+          <a class="btn-dark" href={b.url} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>
+        </div>
+        <svg class="shopband-art" viewBox="0 0 300 160" aria-hidden="true" focusable="false">
+          <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round">
+            <polyline points="14,120 58,78 104,104 150,58 196,86 242,40 286,66" />
+            <polygon points="150,10 167,20 167,40 150,50 133,40 133,20" />
+            <line x1="150" y1="50" x2="150" y2="58" />
+          </g>
+          <g fill="currentColor">
+            <circle cx="14" cy="120" r="9" /><circle cx="58" cy="78" r="11" /><circle cx="104" cy="104" r="9" />
+            <circle cx="150" cy="58" r="11" /><circle cx="196" cy="86" r="9" /><circle cx="242" cy="40" r="11" /><circle cx="286" cy="66" r="9" />
+          </g>
+        </svg>
+      </div>
+    </section>
+  )}
+
+  <section class="wrap library" data-filter-root data-limit="12" aria-labelledby="all">
+    <div class="lib-head">
+      <h2 id="all" class="sec-title">All articles</h2>
+      <form class="search" role="search" onsubmit="return false">
+        <input type="search" data-search placeholder="Search, for example nausea or pen size" aria-label="Search articles" autocomplete="off" />
+      </form>
+    </div>
+    <ul class="filters" aria-label="Filter by topic">
+      <li><button type="button" data-chip="all" aria-pressed="true">All <span>{posts.length}</span></button></li>
+      {cats.map(([cat, n]) => <li><button class={`t-${catTone(cat)}`} type="button" data-chip={cat} aria-pressed="false"><b>{catSymbol(cat)}</b>{catLabel(cat)} <span>{n}</span></button></li>)}
+    </ul>
+    <ul class="list cols three">{posts.map((p) => <PostCard post={p} level={3} />)}</ul>
+    <p class="empty" data-empty hidden>No articles match that search. Try a different word.</p>
+    <div class="more"><button class="btn" type="button" data-more hidden>Show <span>more</span> more articles</button></div>
+  </section>
+</Base>
