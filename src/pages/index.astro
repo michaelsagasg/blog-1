@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import HeroArt from '../components/HeroArt.astro';
-import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime } from '../lib/site';
+import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime, withBase } from '../lib/site';
 const posts = await getPosts();
 const cats = countBy(posts, (p) => p.data.category);
 const [lead, ...rest] = posts;
@@ -30,7 +30,7 @@ const b = site.banner;
     <ul class="ptable">
       {cats.map(([c, n]) => (
         <li>
-          <a class={`el t-${catTone(c)}`} href={`/category/${c}/`}>
+          <a class={`el t-${catTone(c)}`} href={withBase(`/category/${c}/`)}>
             <span class="el-n">{n}</span>
             <span class="el-sym">{catSymbol(c)}</span>
             <span class="el-name">{catLabel(c)}</span>

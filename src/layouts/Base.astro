@@ -1,7 +1,7 @@
 ---
 import Banner from '../components/Banner.astro';
 import Logo from '../components/Logo.astro';
-import { site, getPosts, countBy, catLabel, catShort, catTone } from '../lib/site';
+import { site, getPosts, countBy, catLabel, catShort, catTone, withBase, stripBase } from '../lib/site';
 
 interface Props { title: string; description?: string }
 const { title, description } = Astro.props;
@@ -9,7 +9,7 @@ const { title, description } = Astro.props;
 const posts = await getPosts();
 const categories = countBy(posts, (p) => p.data.category).slice(0, 6);
 const pageTitle = title === site.name ? site.name : `${title} | ${site.name}`;
-const path = Astro.url.pathname;
+const path = stripBase(Astro.url.pathname);
 ---
 <!doctype html>
 <html lang="en">
@@ -19,11 +19,11 @@ const path = Astro.url.pathname;
     <meta name="color-scheme" content="light dark" />
     {description && <meta name="description" content={description} />}
     <title>{pageTitle}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;600&family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&display=swap" />
-    <link rel="stylesheet" href="/styles/site.css" />
+    <link rel="stylesheet" href={withBase('/styles/site.css')} />
     <script is:inline>
       (function () {
         var t = null;
@@ -37,10 +37,10 @@ const path = Astro.url.pathname;
     <Banner />
     <header class="bar">
       <div class="bar-in">
-        <a class="brand" href="/" aria-label={`${site.name} home`}><Logo /></a>
+        <a class="brand" href={withBase('/')} aria-label={`${site.name} home`}><Logo /></a>
         <nav aria-label="Main">
-          {categories.map(([c]) => <a href={`/category/${c}/`} aria-current={path.startsWith(`/category/${c}/`) ? 'page' : undefined}><span class="long">{catLabel(c)}</span><span class="short">{catShort(c)}</span></a>)}
-          {site.nav.map((n) => <a href={n.href} aria-current={path === n.href ? 'page' : undefined}><span class="long">{n.label}</span><span class="short">{n.short ?? n.label}</span></a>)}
+          {categories.map(([c]) => <a href={withBase(`/category/${c}/`)} aria-current={path.startsWith(`/category/${c}/`) ? 'page' : undefined}><span class="long">{catLabel(c)}</span><span class="short">{catShort(c)}</span></a>)}
+          {site.nav.map((n) => <a href={withBase(n.href)} aria-current={path === n.href ? 'page' : undefined}><span class="long">{n.label}</span><span class="short">{n.short ?? n.label}</span></a>)}
         </nav>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme">
           <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z" /></svg>
@@ -56,7 +56,7 @@ const path = Astro.url.pathname;
           <p>{site.tagline}</p>
         </div>
         <nav aria-label="Topics">
-          {categories.map(([c, n]) => <a class={`t-${catTone(c)}`} href={`/category/${c}/`}><i aria-hidden="true"></i>{catLabel(c)} <span>{n}</span></a>)}
+          {categories.map(([c, n]) => <a class={`t-${catTone(c)}`} href={withBase(`/category/${c}/`)}><i aria-hidden="true"></i>{catLabel(c)} <span>{n}</span></a>)}
         </nav>
       </div>
       <p class="foot-copy">© {new Date().getFullYear()} {site.name}</p>

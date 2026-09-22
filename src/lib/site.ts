@@ -4,9 +4,18 @@ import config from '../../site.config.json';
 export const site = config;
 export type Post = CollectionEntry<'posts'>;
 
+// Astro's `base` config (e.g. "/blog-1/" when deployed under a GitHub Pages
+// project subpath) is NOT applied automatically to hand-written absolute
+// hrefs/srcs, only to assets Astro itself resolves. Every root-relative link
+// in this site must go through this helper instead of a bare "/..." string,
+// or it 404s once deployed anywhere but the domain root.
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, ''); // '' at the domain root, '/blog-1' under a subpath
+export const withBase = (p: string) => BASE + p;
+export const stripBase = (pathname: string) => (BASE && pathname.startsWith(BASE) ? pathname.slice(BASE.length) || '/' : pathname);
+
 export const folderOf = (p: Post) => p.id.split('/').slice(0, -1).join('/');
 export const slugOf = (p: Post) => p.id.split('/').pop() as string;
-export const postUrl = (p: Post) => `/posts/${p.id}/`;
+export const postUrl = (p: Post) => withBase(`/posts/${p.id}/`);
 
 export async function getPosts(): Promise<Post[]> {
   const all = await getCollection('posts', (p) => !p.data.draft);
@@ -23,7 +32,7 @@ export const fmtDate = (d: Date) =>
   d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 
 export const readingTime = (p: Post) => Math.max(1, Math.round((p.body ?? '').split(/\s+/).filter(Boolean).length / 220));
-export const rawUrl = (p: Post) => `/posts/${p.id}.md`;
+export const rawUrl = (p: Post) => withBase(`/posts/${p.id}.md`);
 
 export const catLabel = (c: string) => {
   const t = c.replace(/-/g, ' ');

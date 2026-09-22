@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import { render } from 'astro:content';
-import { getPosts, fmtDate, postUrl, readingTime, catLabel, catTone, catSymbol } from '../../lib/site';
+import { getPosts, fmtDate, postUrl, readingTime, catLabel, catTone, catSymbol, withBase } from '../../lib/site';
 
 export async function getStaticPaths() {
   const posts = await getPosts();
@@ -20,7 +20,7 @@ const c = post.data.category;
 <Base title={post.data.title} description={post.data.description}>
   <div class={`wrap art t-${catTone(c)}`}>
     <header class="art-head">
-      <p class="crumbs"><a href="/">Home</a> <span aria-hidden="true">/</span> <a class="crumb-cat" href={`/category/${c}/`}><b>{catSymbol(c)}</b>{catLabel(c)}</a></p>
+      <p class="crumbs"><a href={withBase('/')}>Home</a> <span aria-hidden="true">/</span> <a class="crumb-cat" href={withBase(`/category/${c}/`)}><b>{catSymbol(c)}</b>{catLabel(c)}</a></p>
       <h1>{post.data.title}</h1>
       <p class="art-lede">{post.data.description}</p>
       <p class="art-meta"><time datetime={post.data.date.toISOString()}>{fmtDate(post.data.date)}</time> · {readingTime(post)} min read</p>
@@ -33,7 +33,7 @@ const c = post.data.category;
     )}
     <article class="prose"><Content /></article>
     <p class="post-tools">
-      <a href={`/category/${c}/`}>More in {catLabel(c)}</a>
+      <a href={withBase(`/category/${c}/`)}>More in {catLabel(c)}</a>
     </p>
   </div>
   {related.length > 0 && (
