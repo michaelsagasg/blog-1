@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, timeline, month-2]
 keyword: retatrutide 2 month results
-draft: false
 ---
 
 At two months, expect a meaningful but not dramatic change. Trial data suggests average weight loss in the range of 5% to 10% by week 8 for people who reach the higher doses, with much of the total loss still to come.

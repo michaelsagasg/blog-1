@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, stopping, weight-regain]
 keyword: what happens when you stop taking retatrutide
-draft: false
 ---
 
 When people stop drugs like retatrutide, appetite usually returns over several weeks and most regain a large share of the lost weight within a year. Retatrutide has not reported a full stopping trial, so the evidence comes from semaglutide and tirzepatide.

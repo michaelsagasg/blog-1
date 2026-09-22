@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, trials, results]
 keyword: retatrutide trial results
-draft: false
 ---
 
 Retatrutide has produced results in four main areas so far: obesity, type 2 diabetes, fatty liver disease, and knee osteoarthritis with obesity. The largest number is 28.7% average weight loss at 68 weeks in the phase 3 TRIUMPH-4 trial.

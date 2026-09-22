@@ -11,7 +11,6 @@ const posts = defineCollection({
     category: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
     tags: z.array(z.string()).optional(),
     keyword: z.string().optional(),
-    draft: z.boolean().default(false),
   }),
 });
 

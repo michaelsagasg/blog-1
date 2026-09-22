@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, weight-loss, timeline]
 keyword: how fast can i lose 30 pounds on retatrutide
-draft: false
 ---
 
 Based on the phase 2 trial curves, losing 30 pounds on retatrutide took most participants about 3 to 6 months, depending on starting weight and dose. Someone starting at 300 lb reaches 30 pounds (10%) faster than someone starting at 180 lb (about 17%).

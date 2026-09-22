@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [retatrutide, dysesthesia, side-effects]
 keyword: retatrutide dysesthesia
-draft: false
 ---
 
 Dysesthesia is an unpleasant or unusual skin sensation, such as tingling, burning, pins and needles, or skin that hurts when touched lightly. In the TRIUMPH-4 trial, a larger share of people on higher retatrutide doses reported it than on lower doses or placebo. It was also seen in phase 2, mostly at the highest doses.

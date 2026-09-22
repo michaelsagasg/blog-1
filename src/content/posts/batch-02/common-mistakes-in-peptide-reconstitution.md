@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [peptides, reconstitution, safety]
 keyword: common mistakes in peptide reconstitution
-draft: false
 ---
 
 The most common reconstitution mistakes are shaking the vial, losing track of how much water was added, using the wrong diluent, and storing the mixed vial badly. Each one is easy to prevent.

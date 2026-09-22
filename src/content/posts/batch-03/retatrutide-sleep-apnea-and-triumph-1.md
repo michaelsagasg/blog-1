@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, sleep-apnea, triumph-1]
 keyword: retatrutide sleep apnea
-draft: false
 ---
 
 Retatrutide is being tested for obstructive sleep apnea (OSA) in the phase 3 TRIUMPH program. Results have not been reported yet. The closest evidence is tirzepatide, which cut breathing pauses by up to about 63% in adults with obesity and OSA in the SURMOUNT-OSA trials, and is now approved for this use in the US.

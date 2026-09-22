@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [protein, nutrition, glp-1]
 keyword: protein intake on glp-1 drugs
-draft: false
 ---
 
 A common target for people losing weight is 1.2 to 1.6 g of protein per kg of body weight per day, which is 0.55 to 0.73 g per pound. On appetite-suppressing drugs, reaching that takes deliberate planning because you feel full quickly and eat less overall.

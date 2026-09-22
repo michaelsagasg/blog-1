@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [retatrutide, half-life, pharmacokinetics]
 keyword: retatrutide half-life
-draft: false
 ---
 
 Retatrutide has a half-life of about six days, which is why it can be given once a week. It takes roughly four to five weeks of steady dosing to reach stable levels, and about a month after the last dose for levels to fall to near zero.

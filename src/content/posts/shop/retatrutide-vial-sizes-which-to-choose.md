@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, sizes, planning, enzo-meds]
 keyword: retatrutide vial sizes
-draft: false
 ---
 
 Pick the size by how long you want one order to last. At Enzo Meds the retatrutide choices are a 30 mg pen at £155 and a 60 mg pen at £210. The 60 mg pen costs £3.50 per mg against £5.17 for the 30 mg, so it is the better buy if you want a longer supply.

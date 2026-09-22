@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, uk, buying, enzo-meds]
 keyword: buy retatrutide uk
-draft: false
 ---
 
 To buy retatrutide in the UK from Enzo Meds, pick a pen size, read the certificate of analysis on the product page, place the order before 2pm for same-day dispatch, and wait for next-day UK delivery. The whole process takes about ten minutes of your time.

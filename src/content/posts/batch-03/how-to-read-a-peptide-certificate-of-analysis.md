@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [peptides, coa, quality]
 keyword: how to read a peptide certificate of analysis
-draft: false
 ---
 
 A certificate of analysis (COA) is a lab report that lists test results for a specific batch of a peptide. The key fields are identity (does the molecular weight match), purity (usually by HPLC), and sometimes content, endotoxin, and sterility. A COA helps, but it does not make a product safe or legal to inject.

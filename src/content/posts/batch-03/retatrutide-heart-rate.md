@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [retatrutide, heart-rate, safety]
 keyword: retatrutide heart rate
-draft: false
 ---
 
 In the phase 2 obesity trial, retatrutide raised resting heart rate in a dose-related way. The increase peaked around week 24 and then declined, even as people stayed on treatment. It is a known effect of the drug class, and it is one of the specific safety points the phase 3 program tracks.

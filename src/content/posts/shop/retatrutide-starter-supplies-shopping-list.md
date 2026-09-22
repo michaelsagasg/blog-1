@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, supplies, shopping-list, enzo-meds]
 keyword: retatrutide supplies shopping list
-draft: false
 ---
 
 Alongside your retatrutide order you need a few household items: alcohol swabs, a sharps bin, a small lidded box for the fridge and a notebook. If your product needs mixing, add bacteriostatic water and syringes. Buy them together with your order so nothing holds you up when the parcel lands.

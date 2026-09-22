@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, fatty-liver, masld]
 keyword: retatrutide fatty liver results
-draft: false
 ---
 
 In a phase 2 sub-study of people with fatty liver disease, retatrutide cut liver fat by large amounts. At the two highest doses, most participants reached normal liver fat levels, below 5%, by week 24. The result was published in Nature Medicine in 2024.

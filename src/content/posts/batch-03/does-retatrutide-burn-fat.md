@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, fat-loss, glucagon]
 keyword: does retatrutide burn fat
-draft: false
 ---
 
 Yes, most of the weight lost on retatrutide in trials was fat, but the main driver is eating less, not a direct fat-burning effect. Retatrutide also acts on the glucagon receptor, which may raise energy expenditure and clear fat from the liver. How much that adds on top of appetite suppression is still being studied.

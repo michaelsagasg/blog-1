@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [retatrutide, hair-loss, side-effects]
 keyword: can retatrutide cause hair loss
-draft: false
 ---
 
 Yes, hair shedding can occur during retatrutide treatment, most likely because of rapid weight loss and reduced nutrient intake rather than a direct drug effect. The usual form is temporary and starts about two to four months after weight begins to drop.

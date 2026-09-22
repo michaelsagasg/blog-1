@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [retatrutide, side-effects, safety]
 keyword: retatrutide reviews and complaints
-draft: false
 ---
 
 The most common complaints about retatrutide are stomach-related: nausea, diarrhea, vomiting, and constipation. They rise with dose and usually show up during dose increases. Trials also reported a rise in heart rate and, at higher doses, unusual skin sensations.

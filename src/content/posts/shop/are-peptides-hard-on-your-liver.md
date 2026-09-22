@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [peptides, liver, safety, glp-1]
 keyword: are peptides hard on your liver
-draft: false
 ---
 
 For the GLP-1 family of peptides, the evidence so far points the other way: in trials, liver fat fell rather than rose. But "peptides" covers hundreds of compounds, and each has its own record. Some have liver warnings and some have little data, so check the compound and the batch you plan to use.

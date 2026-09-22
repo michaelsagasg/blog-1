@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, delivery, storage, enzo-meds]
 keyword: retatrutide parcel arrival checklist
-draft: false
 ---
 
 When your order arrives, unpack it the same day, match the batch number to the COA on the product page, and put it in the fridge. Ten minutes covers all of it.

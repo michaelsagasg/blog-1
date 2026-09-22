@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [glp-1, plateau, weight-loss]
 keyword: glp-1 weight loss plateau
-draft: false
 ---
 
 A weight plateau is normal on GLP-1 drugs. In trials, weight fell fastest for the first 6 to 9 months and then leveled off, usually somewhere between 12 and 18 months. A plateau does not mean the drug stopped working. It means your body has reached a new balance.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [peptides, risks, side effects, safety]
 keyword: is there a downside to taking peptides
-draft: false
 ---
 
 Yes, peptides have downsides. They vary by type, but the common ones are side effects from the compound itself, batch quality, muscle loss and missing long-term safety data. "Peptide" is a broad label, so the answer for one compound does not apply to another.

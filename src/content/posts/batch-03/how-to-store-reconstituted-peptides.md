@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [peptides, storage, reconstitution]
 keyword: how to store reconstituted peptides
-draft: false
 ---
 
 Reconstituted peptides are generally stored in the refrigerator at 2 to 8 °C (36 to 46 °F), protected from light, and used within about 28 days when mixed with bacteriostatic water. Unmixed freeze-dried powder is more stable and is often stored in a cold, dry place until needed.

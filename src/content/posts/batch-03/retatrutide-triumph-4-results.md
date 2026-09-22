@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, triumph-4, knee-osteoarthritis]
 keyword: retatrutide triumph-4 results
-draft: false
 ---
 
 TRIUMPH-4 tested retatrutide in adults with obesity and knee osteoarthritis. At 68 weeks, the 12 mg group lost an average of 28.7% of body weight, about 71 pounds, and reported substantially less knee pain than placebo.

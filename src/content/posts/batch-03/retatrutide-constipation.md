@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [retatrutide, constipation, side-effects]
 keyword: retatrutide constipation
-draft: false
 ---
 
 Constipation was one of the most common gastrointestinal side effects in retatrutide trials, along with nausea, vomiting, and diarrhea. It is a class effect of GLP-1 based drugs, caused by slower gut movement and lower food and fluid intake. Fluids, fiber, movement, and simple laxatives help most people.

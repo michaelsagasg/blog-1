@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, studies, evidence]
 keyword: retatrutide study results
-draft: false
 ---
 
 Retatrutide study results come in two forms: peer-reviewed papers and company press releases. The papers include phase 2 in obesity (NEJM, 2023), phase 2 in type 2 diabetes (Lancet, 2023), and a liver fat sub-study. The press release covers the first phase 3 trial, TRIUMPH-4.

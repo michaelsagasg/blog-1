@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [peptides, shop, range, enzo-meds]
 keyword: shop peptides
-draft: false
 ---
 
 At Enzo Meds you can shop retatrutide and tirzepatide pens in 30 mg and 60 mg sizes. Each listing carries a certificate of analysis, orders before 2pm dispatch the same day, and UK delivery is next day. This page shows the range, the prices and the fastest way to order.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, duration, long-term]
 keyword: how long do you take retatrutide
-draft: false
 ---
 
 Retatrutide trials have run for 24 to 68 weeks so far, but no one knows the recommended duration in real use because the drug is not approved. For related drugs like semaglutide and tirzepatide, treatment is meant to be long term, because weight tends to return after stopping.

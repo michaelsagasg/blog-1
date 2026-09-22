@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, bac-water, calculator]
 keyword: how much bac water for 15 mg retatrutide
-draft: false
 ---
 
 For a 15 mg retatrutide vial, 3 mL of BAC water gives 5 mg/mL, and 1.5 mL gives 10 mg/mL. Both are valid. The right one is whichever gives you syringe numbers you can read without guessing.

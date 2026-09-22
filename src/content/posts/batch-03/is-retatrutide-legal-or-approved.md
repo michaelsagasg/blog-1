@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [retatrutide, fda, legal]
 keyword: is retatrutide legal
-draft: false
 ---
 
 Retatrutide is not approved by the FDA or any other major regulator, and it cannot be legally marketed as a treatment in the US. It is an investigational drug, available to people enrolled in clinical trials run by Eli Lilly. Sales of "retatrutide" online are outside the approval system.

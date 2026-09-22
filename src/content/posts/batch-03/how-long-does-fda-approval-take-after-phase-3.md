@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [fda, approval, phase-3]
 keyword: how long does fda approval take after phase 3
-draft: false
 ---
 
 After phase 3 data is ready, FDA approval usually takes about 10 to 12 months from the date a company submits its application. Priority review can cut that to about 6 to 8 months. Add the months a company needs to prepare the filing, and the total is often a year to a year and a half after the key data.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, month-1, weight-loss]
 keyword: is it normal to lose weight after 1 month of taking retatrutide
-draft: false
 ---
 
 Yes, losing some weight in the first month on retatrutide is normal. A loss of about 1% to 5% of body weight in month one fits the trial pattern, and a good share of it is water and reduced food volume rather than fat.

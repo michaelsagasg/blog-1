@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [urine, ketones, hydration]
 keyword: what does pee look like when burning fat
-draft: false
 ---
 
 Urine does not reliably show fat burning. Its color mostly reflects hydration, and its smell can change with diet, medications, and ketones. There is no visible sign in pee that tells you fat is being burned.

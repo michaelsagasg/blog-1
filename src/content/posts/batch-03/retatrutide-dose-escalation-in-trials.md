@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, dosing, trials]
 keyword: retatrutide dose escalation
-draft: false
 ---
 
 Retatrutide trials started at low weekly doses and raised them in steps, usually every four weeks, up to 8 mg, 9 mg, or 12 mg. Phase 2 showed that slower steps caused fewer stomach side effects with similar weight loss at 48 weeks. That is why phase 3 used gradual escalation.

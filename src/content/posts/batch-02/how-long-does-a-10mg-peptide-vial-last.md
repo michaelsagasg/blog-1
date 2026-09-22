@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [peptides, vial, dosing]
 keyword: how long will a 10mg vial of peptide last
-draft: false
 ---
 
 A 10 mg vial lasts as many doses as 10 divided by your dose in mg. At 2 mg a week, that is 5 weeks. At 4 mg a week, it is 2.5 weeks. Water volume does not change this.

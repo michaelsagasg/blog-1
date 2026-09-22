@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, bac-water, reconstitution]
 keyword: how to use bac water with retatrutide
-draft: false
 ---
 
 BAC water turns freeze-dried retatrutide powder into a liquid you can measure. The amount you add does not change how much drug is in the vial. It only changes how concentrated the liquid is, and that decides how many units you draw for a given dose.

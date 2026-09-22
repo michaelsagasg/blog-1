@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import HeroArt from '../components/HeroArt.astro';
-import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime, withBase } from '../lib/site';
+import { site, getPosts, countBy, catLabel, catBlurb, catTone, catSymbol, fmtDate, postUrl, readingTime, withBase, bannerHref } from '../lib/site';
 const posts = await getPosts();
 const cats = countBy(posts, (p) => p.data.category);
 const [lead, ...rest] = posts;
@@ -17,7 +17,7 @@ const b = site.banner;
         <h1>Guides to peptides and <em>retatrutide</em></h1>
         <p class="hero-sub">Trial results, side effects, dosing math and buying guides, each with the numbers and where they came from.</p>
         <div class="hero-cta">
-          {b.enabled && <a class="btn-shop" href={b.url} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>}
+          {b.enabled && <a class="btn-shop" href={bannerHref(b.url)} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>}
           <a class="btn-ghost" href="#all">Browse the guides</a>
         </div>
       </div>
@@ -59,7 +59,7 @@ const b = site.banner;
       <div class="wrap shopband-in">
         <div>
           <h2>{b.headline}</h2>
-          <a class="btn-dark" href={b.url} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>
+          <a class="btn-dark" href={bannerHref(b.url)} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>
         </div>
         <svg class="shopband-art" viewBox="0 0 300 160" aria-hidden="true" focusable="false">
           <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round">

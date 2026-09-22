@@ -17,8 +17,13 @@ export const folderOf = (p: Post) => p.id.split('/').slice(0, -1).join('/');
 export const slugOf = (p: Post) => p.id.split('/').pop() as string;
 export const postUrl = (p: Post) => withBase(`/posts/${p.id}/`);
 
+// site.config.json/advertiser.json keep the banner URL clean (no UTM) so check_advertiser.py's
+// competitor/URL-match checks run against the real destination; UTM is added only at render time.
+const utm = `utm_source=${site.slug}&utm_medium=blog`;
+export const bannerHref = (url: string) => url + (url.includes('?') ? '&' : '?') + utm;
+
 export async function getPosts(): Promise<Post[]> {
-  const all = await getCollection('posts', (p) => !p.data.draft);
+  const all = await getCollection('posts');
   return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || a.id.localeCompare(b.id));
 }
 

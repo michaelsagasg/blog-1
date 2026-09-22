@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, eli-lilly, triumph-4]
 keyword: what were the results of eli lilly's phase 3 test on retatrutide
-draft: false
 ---
 
 Eli Lilly's first phase 3 retatrutide trial, TRIUMPH-4, found that adults with obesity and knee osteoarthritis lost an average of 28.7% of their body weight, about 71 pounds, over 68 weeks on the 12 mg dose. Knee pain also fell substantially compared with placebo.

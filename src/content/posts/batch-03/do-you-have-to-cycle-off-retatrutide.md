@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, cycling, dosing]
 keyword: do you have to cycle off retatrutide
-draft: false
 ---
 
 No, there is no evidence that you need to cycle off retatrutide, and no trial has tested it. Trials gave the drug continuously for 24 to 68 weeks. Related drugs such as semaglutide and tirzepatide are labeled for continuous use, and stopping brings back weight.

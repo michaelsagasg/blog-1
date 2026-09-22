@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [clinical-trials, evidence, glp-1]
 keyword: how to read a weight-loss drug trial
-draft: false
 ---
 
 To read a weight-loss drug trial, check who was enrolled, how long it lasted, what the comparison was, how dropouts were counted, and how large the effect was compared with placebo. Eight questions cover most of what matters.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, semaglutide, comparison]
 keyword: retatrutide vs semaglutide
-draft: false
 ---
 
 Semaglutide 2.4 mg produced about 15% average weight loss at 68 weeks in the STEP 1 trial. Retatrutide 12 mg produced 24.2% at 48 weeks in phase 2 and 28.7% at 68 weeks in TRIUMPH-4. The gap is large, but the trials differ, and semaglutide is the only one approved.

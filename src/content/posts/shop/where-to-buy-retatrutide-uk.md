@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, uk, where-to-buy, enzo-meds]
 keyword: retatrutide uk where to buy
-draft: false
 ---
 
 You can buy retatrutide in the UK from Enzo Meds. It lists a 30 mg pen at £155 and a 60 mg pen at £210, states that every batch is lab tested with the COA on the product page, dispatches the same day before 2pm and delivers next day in the UK.

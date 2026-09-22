@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, side-effects, experience]
 keyword: how does retatrutide make you feel
-draft: false
 ---
 
 Most people on retatrutide in trials described smaller appetite and earlier fullness, with nausea or other stomach effects in the days after a dose increase. Energy, mood, and sleep effects are less well documented and vary from person to person.

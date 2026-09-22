@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, trt, testosterone]
 keyword: trt and retatrutide results
-draft: false
 ---
 
 There are no published trials of retatrutide combined with testosterone replacement therapy (TRT). What exists is indirect: weight loss raises testosterone in many men with obesity, and testosterone can help preserve muscle. Anyone on TRT who is considering weight-loss drugs should involve their prescriber.

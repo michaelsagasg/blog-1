@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, results, trials]
 keyword: retatrutide results before and after
-draft: false
 ---
 
 The best before-and-after data for retatrutide comes from clinical trials, not photos. In the phase 2 obesity trial, people on the 12 mg dose lost an average of 24.2% of their body weight in 48 weeks. In TRIUMPH-4, the 12 mg group lost an average of 28.7% in 68 weeks, about 71 pounds.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, women, results]
 keyword: retatrutide results women
-draft: false
 ---
 
 Women were a large share of the retatrutide trial participants, and trial results are reported for everyone combined. Detailed breakdowns by sex have been limited in the public data so far. For the related drugs semaglutide and tirzepatide, women on average lose a slightly larger percentage of body weight than men.

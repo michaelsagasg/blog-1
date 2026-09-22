@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, type-2-diabetes, hba1c]
 keyword: retatrutide type 2 diabetes results
-draft: false
 ---
 
 In a 24-week phase 2 trial in adults with type 2 diabetes, retatrutide lowered HbA1c by up to about 2 percentage points and reduced body weight by up to about 17%. Both effects were larger than with dulaglutide, an approved GLP-1 drug used as a comparator.

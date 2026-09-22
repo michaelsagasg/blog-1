@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, phase-2, nejm]
 keyword: retatrutide phase 2 results
-draft: false
 ---
 
 The phase 2 retatrutide trial in obesity found average weight loss of 24.2% at 48 weeks on the 12 mg dose. It was published in the New England Journal of Medicine in 2023 and remains the most detailed public dataset on the drug.

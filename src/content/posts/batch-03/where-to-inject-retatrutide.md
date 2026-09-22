@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, injection, technique]
 keyword: where to inject retatrutide
-draft: false
 ---
 
 Weekly GLP-1 type drugs are injected into the fat layer under the skin, called a subcutaneous injection. The standard sites are the abdomen, the front or outer thigh, and the back of the upper arm. Rotating the site each week reduces skin problems.

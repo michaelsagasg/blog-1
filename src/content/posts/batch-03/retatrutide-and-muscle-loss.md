@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [retatrutide, muscle, body-composition]
 keyword: retatrutide muscle loss
-draft: false
 ---
 
 Some muscle loss is expected on any large weight loss, including on retatrutide. In trials of related drugs, roughly a quarter to a third of the weight lost was lean mass, though lean mass includes water, organs, and bone as well as muscle. Resistance training and enough protein reduce the loss.

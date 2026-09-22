@@ -5,7 +5,6 @@ date: 2026-09-22
 category: side-effects
 tags: [retatrutide, nausea, side-effects]
 keyword: retatrutide nausea
-draft: false
 ---
 
 Nausea was among the most common side effects in retatrutide trials, along with vomiting, diarrhea, and constipation. It was mostly mild to moderate and clustered after dose increases. The most useful steps are smaller meals, avoiding greasy food, staying hydrated, and moving up in dose slowly.

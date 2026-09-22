@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, results, expectations]
 keyword: what are the realistic results of taking retatrutide
-draft: false
 ---
 
 Realistic results on retatrutide, based on trials, are an average weight loss of about 24% to 29% at the top doses over 48 to 68 weeks, along with better blood pressure, blood sugar, and liver fat. Some people lose much less, and some stop because of side effects.

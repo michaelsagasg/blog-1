@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, triumph, transcend, phase-3]
 keyword: retatrutide trials results
-draft: false
 ---
 
 Retatrutide is being tested in a large phase 3 program. TRIUMPH trials cover obesity and related conditions, and TRANSCEND trials cover type 2 diabetes. Only one phase 3 result, TRIUMPH-4, had been announced at the time of writing.

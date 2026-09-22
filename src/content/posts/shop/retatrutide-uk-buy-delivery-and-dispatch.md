@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, uk, delivery, enzo-meds]
 keyword: retatrutide uk buy
-draft: false
 ---
 
 If you buy retatrutide in the UK from Enzo Meds, an order placed before 2pm dispatches the same day and arrives the next day. UK delivery is free on orders over £150, and both retatrutide pens (£155 and £210 at the time of writing) are above that line.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [phase-3, clinical-trials, timelines]
 keyword: how long does phase 3 last
-draft: false
 ---
 
 Phase 3 trials usually take one to four years from first enrollment to final data, and a whole phase 3 program can take longer. Obesity trials commonly treat people for 68 to 80 weeks, while cardiovascular outcomes trials can run for five years or more.

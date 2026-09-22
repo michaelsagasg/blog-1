@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, reddit, uk, enzo-meds]
 keyword: retatrutide uk buy reddit
-draft: false
 ---
 
 In UK retatrutide buying threads, three service questions come up more than any others: can I see a batch report, can I reach a person, and how quickly does it ship. Enzo Meds answers each on its site: a certificate of analysis on the listing, 1:1 support on WhatsApp and same-day dispatch before 2pm.

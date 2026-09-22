@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, vials, dose-math]
 keyword: how long does 20 mg of retatrutide last
-draft: false
 ---
 
 The answer is simple division: a 20 mg total divided by your weekly dose. At 4 mg a week, 20 mg lasts 5 weeks. At 8 mg it lasts 2.5 weeks. At 12 mg it lasts about 1.7 weeks.

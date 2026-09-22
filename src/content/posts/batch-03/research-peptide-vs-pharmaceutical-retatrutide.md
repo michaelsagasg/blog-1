@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [retatrutide, research-peptides, quality]
 keyword: research peptide vs pharmaceutical retatrutide
-draft: false
 ---
 
 Retatrutide sold online as a research peptide is not the same product as the drug tested in Eli Lilly's trials. The trial drug is made under pharmaceutical manufacturing rules, tested for identity, purity, potency, and sterility, and dosed under supervision. A research vial has none of those guarantees.

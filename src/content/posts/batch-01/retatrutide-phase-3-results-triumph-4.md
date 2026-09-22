@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, phase-3, triumph]
 keyword: retatrutide phase 3 results
-draft: false
 ---
 
 The first phase 3 result for retatrutide came from TRIUMPH-4. Adults with obesity and knee osteoarthritis who took 12 mg once weekly lost an average of 28.7% of their body weight over 68 weeks, about 71 pounds. Knee pain also fell.

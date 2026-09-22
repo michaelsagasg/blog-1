@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, reddit, uk, enzo-meds]
 keyword: retatrutide buy uk reddit
-draft: false
 ---
 
 Search for retatrutide buying threads on Reddit and the same six questions come up: what does it cost, which size to pick, how long is delivery, is there a COA, who answers questions and what is the total once shipping is added. Here are the answers from Enzo Meds, with the numbers.

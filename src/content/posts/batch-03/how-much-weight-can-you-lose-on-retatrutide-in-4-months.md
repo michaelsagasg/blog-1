@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, weight-loss, timeline]
 keyword: how much weight can you lose on retatrutide in 4 months
-draft: false
 ---
 
 In the phase 2 trial, people on the higher retatrutide doses lost roughly 10% to 15% of their body weight by around month four, on average. For a 240 lb person, that is about 24 to 36 pounds. Individual results varied widely.

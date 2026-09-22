@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [peptides, online shop, enzo-meds, service]
 keyword: peptides shop online
-draft: false
 ---
 
 When you order from the Enzo Meds peptides shop online, you get a certificate of analysis on the product page, prices with the milligram amount beside them, same-day dispatch for orders before 2pm, next-day UK delivery and a person on WhatsApp. This page walks through the experience from first click to fridge shelf.

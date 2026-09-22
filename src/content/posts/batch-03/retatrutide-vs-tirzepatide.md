@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, tirzepatide, comparison]
 keyword: retatrutide vs tirzepatide
-draft: false
 ---
 
 Retatrutide and tirzepatide both mimic gut hormones, but retatrutide hits a third target, the glucagon receptor. In separate trials, retatrutide 12 mg produced 24.2% weight loss at 48 weeks and 28.7% at 68 weeks, while tirzepatide 15 mg produced about 21% at 72 weeks. No head-to-head trial has been reported.

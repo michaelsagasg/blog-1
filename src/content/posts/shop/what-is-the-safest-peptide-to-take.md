@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [peptides, safety, evidence, comparison]
 keyword: what is the safest peptide to take
-draft: false
 ---
 
 The safest peptide to take is the one with the longest safety record, the largest number of trial participants and the clearest published side-effect data. No peptide is risk-free, and "safest" changes with your own health. This guide shows how to compare two peptides on evidence.

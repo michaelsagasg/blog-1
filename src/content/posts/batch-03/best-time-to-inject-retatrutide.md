@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, injection, schedule]
 keyword: is there a best time to inject retatrutide
-draft: false
 ---
 
 There is no proven best time of day to inject retatrutide. Trials used a once-weekly injection on the same day each week, and the drug's long half-life means the hour matters little. Consistency in the weekly schedule matters more.

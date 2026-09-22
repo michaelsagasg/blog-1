@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, timeline, results]
 keyword: retatrutide how long to see results
-draft: false
 ---
 
 In the trials, most people noticed reduced appetite within the first few weeks, and measurable weight loss showed up by the end of month one. The steepest loss came between about weeks 8 and 24, as the dose went up.

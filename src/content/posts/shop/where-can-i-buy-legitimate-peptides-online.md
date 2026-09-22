@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [peptides, batch-tested, coa, enzo-meds]
 keyword: where can i buy legitimate peptides online
-draft: false
 ---
 
 You can buy batch-tested peptides online from Enzo Meds. It lists Tiva Pharma retatrutide and tirzepatide pens, says every batch is lab tested and verified, and puts the certificate of analysis on each product page so you can read it before you order.

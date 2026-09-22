@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, timeline, weight-loss]
 keyword: retatrutide 1 month results
-draft: false
 ---
 
 At one month, weight loss on retatrutide in trials is small compared with the 48-week totals. Doses start low, so the first four weeks are mostly about appetite changes and side effects, not big scale changes.

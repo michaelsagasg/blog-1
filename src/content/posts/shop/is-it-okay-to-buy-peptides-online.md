@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [peptides, online, ordering, enzo-meds]
 keyword: is it okay to buy peptides online
-draft: false
 ---
 
 Yes, you can buy peptides online, and at Enzo Meds it takes five steps: choose a pen, read the certificate of analysis on the listing, check out before 2pm, receive it next day in the UK and store it. This page shows each step so you know what to expect before you order.

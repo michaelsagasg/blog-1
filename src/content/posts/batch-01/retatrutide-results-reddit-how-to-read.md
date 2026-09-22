@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, reddit, evidence]
 keyword: retatrutide results reddit
-draft: false
 ---
 
 Reddit posts about retatrutide can show you what people say happened to them. They cannot show you what the drug does on average, whether the product was real, or what dose someone took. Use them for questions to ask, not for answers.

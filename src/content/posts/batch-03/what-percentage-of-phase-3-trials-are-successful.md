@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [phase-3, clinical-trials, approval]
 keyword: what percentage of phase 3 trials are successful
-draft: false
 ---
 
 Industry analyses put the phase 3 success rate at roughly 55% to 60%, meaning about that share of drugs entering phase 3 go on to a regulatory submission. Of those submitted, a large majority are eventually approved, so the overall chance from phase 3 start to approval is around 50%.

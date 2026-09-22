@@ -5,7 +5,6 @@ date: 2026-09-22
 category: buying-guide
 tags: [retatrutide, cost, uk, budget, enzo-meds]
 keyword: how much does retatrutide cost uk
-draft: false
 ---
 
 At the time of writing, [Enzo Meds](https://enzomeds.com?r=blog) lists retatrutide at £155 for a 30 mg pen and £210 for a 60 mg pen. That works out to £5.17 per mg and £3.50 per mg. The 60 mg pen cuts the price per mg by about a third.

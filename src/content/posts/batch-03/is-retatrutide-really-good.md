@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, evaluation, pros-cons]
 keyword: is retatrutide really good
-draft: false
 ---
 
 On the evidence so far, retatrutide is very effective for weight loss, with average losses of 24% to 29% at top doses in trials. It is also unapproved, its long-term safety is unknown, and side effects affect a meaningful share of users. "Good" depends on which of those you weigh most.

@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, phase-3, approval]
 keyword: is retatrutide done with phase 3
-draft: false
 ---
 
 No, retatrutide is not done with phase 3. One phase 3 trial, TRIUMPH-4, has reported topline results. Others in the TRIUMPH and TRANSCEND programs are still running, and Eli Lilly has not yet submitted a complete application to regulators, as far as public reports show.

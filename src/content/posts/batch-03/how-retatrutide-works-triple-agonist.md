@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [retatrutide, mechanism, triple-agonist]
 keyword: how retatrutide works
-draft: false
 ---
 
 Retatrutide is a single molecule that activates three hormone receptors: GLP-1, GIP, and glucagon. GLP-1 and GIP lower appetite and improve blood sugar, while glucagon raises energy expenditure and fat breakdown. It is injected once weekly.

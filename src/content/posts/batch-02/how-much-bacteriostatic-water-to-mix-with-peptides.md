@@ -5,7 +5,6 @@ date: 2026-09-22
 category: basics
 tags: [peptides, bac-water, reconstitution]
 keyword: how much bac water should i mix
-draft: false
 ---
 
 There is no single correct amount of bacteriostatic water for a peptide vial. Any volume works, as long as you know what it makes the concentration and you draw doses to match. Most people choose between 1 and 3 mL for a 5 to 15 mg vial.

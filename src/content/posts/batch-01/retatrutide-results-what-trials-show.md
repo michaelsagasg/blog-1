@@ -5,7 +5,6 @@ date: 2026-09-22
 category: retatrutide
 tags: [retatrutide, weight-loss, clinical-trials]
 keyword: retatrutide results
-draft: false
 ---
 
 Retatrutide has produced the largest average weight loss of any obesity drug tested so far. In a 48-week phase 2 trial, adults on the top dose lost an average of 24.2% of their body weight. In a phase 3 study, the top dose reached 28.7% at 68 weeks.
