@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import { render } from 'astro:content';
-import { getPosts, fmtDate, postUrl, readingTime, catLabel, catTone, catSymbol, withBase, articleJsonLd } from '../../lib/site';
+import { site, getPosts, fmtDate, postUrl, readingTime, catLabel, catTone, catSymbol, withBase, bannerHref, articleJsonLd } from '../../lib/site';
 
 export async function getStaticPaths() {
   const posts = await getPosts();
@@ -16,6 +16,7 @@ const { post, newer, older, related } = Astro.props;
 const { Content, headings } = await render(post);
 const toc = headings.filter((h) => h.depth === 2);
 const c = post.data.category;
+const b = site.banner;
 ---
 <Base title={post.data.title} description={post.data.description} type="article" jsonLd={articleJsonLd(post)}>
   <div class={`wrap art t-${catTone(c)}`}>
@@ -36,6 +37,11 @@ const c = post.data.category;
       <a href={withBase(`/category/${c}/`)}>More in {catLabel(c)}</a>
     </p>
   </div>
+  {b.enabled && (
+    <div class="wrap end-shop">
+      <a class="btn-shop" href={bannerHref(b.url)} rel="sponsored noopener">{b.button} <span aria-hidden="true">→</span></a>
+    </div>
+  )}
   {related.length > 0 && (
     <section class="wrap related" aria-labelledby="keep">
       <h2 id="keep">Keep reading</h2>

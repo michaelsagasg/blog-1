@@ -309,6 +309,8 @@ p { text-wrap: pretty; }
 .post-tools a { font: 600 .85rem/1 var(--display); color: var(--ink); text-decoration: none; padding: .6rem .85rem; border: 1.5px solid var(--rule); border-radius: 10px; transition: border-color .15s; }
 .post-tools a:hover { border-color: var(--c); }
 
+.end-shop { text-align: center; margin: 2.5rem 0 0; }
+
 .related { padding-top: 3rem; }
 .related h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-stretch: 114%; }
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-block: 2rem 3.5rem; }
