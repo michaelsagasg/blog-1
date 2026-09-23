@@ -72,6 +72,12 @@ Suppose a participant moves from one dose level to the next at week 5. In weeks 
 
 Some participants tolerated escalation well and reached the top dose on schedule. Others held at a lower dose or reduced. In obesity trials of related drugs, roughly a fifth to a third of people do not reach or stay on the top dose. Those people still lose meaningful weight, typically between the results for the lower and higher groups. This matters when reading averages, since the headline number blends people at different doses.
 
+## A simple, practical approach outside a trial
+
+Since there is no approved protocol, a cautious general approach some people use is to start at 1 mg, add 1 mg each week, and level off once 4 mg is reached, holding there rather than continuing to climb. That is well below the trial's top arms, and it follows the same reasoning trials used: go slow, and let the body settle at each step before moving to the next.
+
+Because tolerance and goals vary a lot between people, working out the details of a plan is best done directly with Enzo Meds' customer service team rather than by guesswork.
+
 ## Bottom line
 
 Trials raised the dose in gradual steps because slower escalation reduced side effects without costing results. Any real-world use would likely follow a similar principle.

@@ -25,6 +25,12 @@ Because retatrutide has a half-life of around six days, it takes roughly four to
 
 Trial protocols like this are developed for a specific research context with defined monitoring by clinical staff, not as general instructions for unsupervised use. Retatrutide remains investigational with no approved dosing schedule for use outside a clinical trial, and how any dose is escalated in practice should be guided by a healthcare professional who can account for individual response and tolerability.
 
+## A simple, practical starting point
+
+Retatrutide has no approved dose or official schedule, but a cautious and widely used approach for anyone new to it is to start at 1 mg, increase by 1 mg each week, and stop climbing once 4 mg is reached, maintaining that dose from then on. This keeps early GI side effects manageable while still building toward a dose that produces a noticeable effect, and it follows the same slow-and-steady logic the trials themselves were built around, without trying to replicate any specific trial arm.
+
+Because tolerance, goals and body size all vary, a plan tailored to your own situation is best worked out directly with Enzo Meds' customer service team, who can talk it through with you rather than leaving you to guess.
+
 ## Why tolerability was central to escalation design
 
 The Phase 2 trial recorded gastrointestinal side effects, primarily nausea, diarrhoea and vomiting, as the most common adverse events, particularly during the escalation period rather than once a stable maintenance dose was reached. This pattern, side effects concentrated around dose increases, is consistent with what has been reported for other GLP-1 based drugs during their own escalation phases.
